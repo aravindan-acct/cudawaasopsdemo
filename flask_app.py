@@ -14,7 +14,7 @@ app = Flask(__name__)
 def hello_world():
 	return 'Hello World'
 
-@app.route('/index1.html')
+@app.route('/index.html')
 def index():
 	return 'Index Page'
 # main driver function
